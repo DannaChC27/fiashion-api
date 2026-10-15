@@ -1,0 +1,15 @@
+technique,prompt,response,input_tokens,output_tokens,latency_ms
+zero_shot,"Eres el asesor de una tienda de ropa. Recomienda hasta 3 prendas de la lista que mejor encajen con el cliente. Usa SOLO prendas de la lista.
+
+Cliente: talla M, genero mujer, categoria chaquetas, estilo urbano
+
+Prendas disponibles:
+- id 1: Chaqueta de jean oversize | chaquetas | talla M | estilo urbano | $129,900
+- id 2: Chaqueta bomber negra | chaquetas | talla M | estilo urbano | $159,900
+- id 4: Chaqueta de cuero sintetico | chaquetas | talla M | estilo urbano | $210,000","¡Hola! Como asesor de la tienda, con gusto te ayudo a encontrar las mejores opciones para ti. Teniendo en cuenta que buscas una chaqueta en talla M para mujer con un estilo urbano, te recomiendo las siguientes 3 prendas de nuestra lista que encajan perfectamente:
+
+1. **Chaqueta de jean oversize** (id 1) - $129,900
+2. **Chaqueta bomber negra** (id 2) - $159,900
+3. **Chaqueta de cuero sintetico** (id 4) - $210,000
+
+Todas están disponibles en tu talla y tienen el estilo urbano ideal para ti. ¡Cualquiera de ellas será un gran complemento para tu guardarropa!",143,161,1711
