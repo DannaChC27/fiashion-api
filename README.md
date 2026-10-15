@@ -96,8 +96,3 @@ Estas métricas permiten analizar el comportamiento del sistema y comparar las t
 
 El proyecto utiliza GitHub Actions para ejecutar automáticamente las pruebas cuando se realizan eventos `push` o `pull_request`, configurando Python 3.12, instalando las dependencias y verificando el funcionamiento de la API mediante Pytest.
 
-
-
-## 📄 Licencia
-
-Proyecto desarrollado con fines académicos.
