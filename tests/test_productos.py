@@ -14,7 +14,7 @@ def test_crear_y_consultar_producto(client):
 def test_producto_inexistente_da_404(client):
     r = client.get("/api/v1/productos/9999")
     assert r.status_code == 404
-    assert r.json()["message"] == "Product not found"
+    assert r.json()["message"] == "Producto no encontrado"
 
 
 def test_datos_invalidos_dan_422(client):
